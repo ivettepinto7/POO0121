@@ -1,0 +1,12 @@
+C:\Users\dsuge\Desktop\POO0121\example1\example1\bin\Debug\example1.exe
+C:\Users\dsuge\Desktop\POO0121\example1\example1\bin\Debug\example1.pdb
+C:\Users\dsuge\Desktop\POO0121\example1\example1\obj\Debug\example1.csprojAssemblyReference.cache
+C:\Users\dsuge\Desktop\POO0121\example1\example1\obj\Debug\example1.csproj.CoreCompileInputs.cache
+C:\Users\dsuge\Desktop\POO0121\example1\example1\obj\Debug\example1.exe
+C:\Users\dsuge\Desktop\POO0121\example1\example1\obj\Debug\example1.pdb
+E:\POO\POO0121\example1\example1\bin\Debug\example1.exe
+E:\POO\POO0121\example1\example1\bin\Debug\example1.pdb
+E:\POO\POO0121\example1\example1\obj\Debug\example1.csprojAssemblyReference.cache
+E:\POO\POO0121\example1\example1\obj\Debug\example1.csproj.CoreCompileInputs.cache
+E:\POO\POO0121\example1\example1\obj\Debug\example1.exe
+E:\POO\POO0121\example1\example1\obj\Debug\example1.pdb
