@@ -13,8 +13,10 @@ namespace example1
             b = Int32.Parse(Console.ReadLine());
             Console.WriteLine($"Adding the values of {a} and {b} give: "+ sum(a,b));
             c = sum(a, b) + 2;
-            Console.WriteLine($"Adding the values of {a} and {c} give: " + sum(a, c));
-
+            if (sum(a, b) % 2 == 0)
+                Console.WriteLine("The result is an even number");
+            else
+                Console.WriteLine("The result is an odd number");
         }
         public static int sum(int a, int b){
             int suma = a + b;
