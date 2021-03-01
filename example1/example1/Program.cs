@@ -17,6 +17,9 @@ namespace example1
                 Console.WriteLine("The result is an even number");
             else
                 Console.WriteLine("The result is an odd number");
+            int c = sum(a, b) + 1;
+            Console.WriteLine(c + "is the result");
+
         }
         public static int sum(int a, int b){
             int suma = a + b;
