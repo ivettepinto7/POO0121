@@ -12,7 +12,7 @@ namespace example1
             Console.WriteLine("Enter another value:");
             b = Int32.Parse(Console.ReadLine());
             Console.WriteLine($"Adding the values of {a} and {b} give: "+ sum(a,b));
-            c = sum(a, b) + 1;
+            c = sum(a, b) + 2;
             Console.WriteLine($"Adding the values of {a} and {c} give: " + sum(a, c));
 
         }
