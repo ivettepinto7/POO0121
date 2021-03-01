@@ -7,7 +7,7 @@ namespace example1
         public static void Main(string[] args)
         {
             int a = 0, b = 0;
-            Console.WriteLine("Enter a value:");
+            Console.WriteLine("Enter a value for a :");
             a = Int32.Parse(Console.ReadLine() );
             Console.WriteLine("Enter another value:");
             b = Int32.Parse(Console.ReadLine());
