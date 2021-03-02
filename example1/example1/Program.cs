@@ -7,14 +7,19 @@ namespace example1
         public static void Main(string[] args)
         {
             int a = 0, b = 0;
+            
             Console.WriteLine("Enter a value:");
             a = Int32.Parse(Console.ReadLine() );
+            
             Console.WriteLine("Enter another value:");
             b = Int32.Parse(Console.ReadLine());
+            
             Console.WriteLine($"Adding the values of {a} and {b} give: "+ sum(a,b));
-            int c = sum(a, b) + 1;
-            Console.WriteLine(c + "is the result");
 
+            String x = sum(a, b) % 2 == 0 ? "Even number" : "Odd number";
+
+            Console.WriteLine(x);
+ 
         }
         public static int sum(int a, int b){
             int suma = a + b;
