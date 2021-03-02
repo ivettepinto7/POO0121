@@ -6,7 +6,7 @@ namespace example1
     {
         public static void Main(string[] args)
         {
-            int a = 0, b = 0;
+            int a = 0, b = 0, c = 0;
             
             Console.WriteLine("Enter a value:");
             a = Int32.Parse(Console.ReadLine() );
@@ -22,8 +22,7 @@ namespace example1
  
         }
         public static int sum(int a, int b){
-            int suma = a + b;
-            return suma;
+            return a + b;
         }
     }
 }
