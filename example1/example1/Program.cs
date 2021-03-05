@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 
 namespace example1
@@ -6,22 +7,20 @@ namespace example1
     {
         public static void Main(string[] args)
         {
-            int a = 0, b = 0, c = 0;
-            
-            Console.WriteLine("Enter a value:");
-            a = Int32.Parse(Console.ReadLine() );
-            
-            Console.WriteLine("Enter another value:");
+            int a = 0, b = 0;
+
+            Console.WriteLine("Enter a value for a:");
+            a = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter a value for b:");
             b = Int32.Parse(Console.ReadLine());
-            
-            Console.WriteLine($"Adding the values of {a} and {b} give: "+ sum(a,b));
 
-            String x = sum(a, b) % 2 == 0 ? "Even number" : "Odd number";
-
-            Console.WriteLine(x);
- 
+            Console.WriteLine($"Adding {a} + {b} equals {AddNumbers(a, b)} ");
         }
-        public static int sum(int a, int b){
+
+        public static int AddNumbers(int a, int b)
+        {
+
             return a + b;
         }
     }
