@@ -7,15 +7,18 @@ namespace example1
         public static void Main(string[] args)
         {
             int a = 0, b = 0;
-            Console.WriteLine("Enter a value:");
-            a = Int32.Parse(Console.ReadLine() );
-            Console.WriteLine("Enter another value:");
+            
+            Console.WriteLine("Enter a value for a:");
+            a = Int32.Parse(Console.ReadLine());
+            
+            Console.WriteLine("Enter a value for b:");
             b = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("The result is : "+ sum(a,b));
+            
+            Console.WriteLine($"Adding {a} + {b} equals {AddNumbers(a,b)} ");
         }
-        public static int sum(int a, int b){
-            int suma = a + b;
-            return suma;
+        public static int AddNumbers(int a, int b){
+            
+            return a+b;
         }
     }
 }
